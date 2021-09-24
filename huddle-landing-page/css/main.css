@@ -17,7 +17,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-color: #674baf;
-  background-image: url("/dist/images/bg-mobile.svg");
+  background-image: url("../images/bg-mobile.svg");
   height: 373px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
 
 @media (min-width: 64em) {
   body {
-    background-image: url("/dist/images/bg-desktop.svg");
+    background-image: url("../images/bg-desktop.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

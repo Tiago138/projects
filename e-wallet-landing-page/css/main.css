@@ -191,7 +191,6 @@ main .cards__items {
   text-align: center;
   padding: 120px;
   height: 250px;
-  border: 1px solid black;
   min-width: 600px;
 }
 

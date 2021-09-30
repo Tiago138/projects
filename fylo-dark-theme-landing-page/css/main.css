@@ -19,7 +19,6 @@ body {
   font-weight: 400;
   font-size: 0.875rem;
   background: #181f2a;
-  overflow-x: hidden;
 }
 
 .btn {
@@ -117,27 +116,22 @@ body {
   border-bottom: 1px solid white;
 }
 
-@media (min-width: 64em) {
-  .hero {
-    width: 752px;
-    margin: 0 auto;
-  }
-}
-
 .hero__img {
   position: relative;
   padding: 0 36px;
   padding-bottom: 34px;
 }
 
-.hero__img img {
-  width: 100%;
-  height: auto;
+@media (min-width: 64em) {
+  .hero__img .intro {
+    width: 752px;
+    margin: auto;
+  }
 }
 
-.hero__img .wave__mobile {
-  height: -50px;
-  background-color: #1c2431;
+.hero__img .intro img {
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 64em) {
@@ -164,18 +158,15 @@ body {
 @media (min-width: 64em) {
   .hero__img .wave__desktop {
     display: initial;
-    background-color: #1c2431;
   }
   .hero__img .wave__desktop img {
-    padding-top: 113%;
     background-color: #1c2431;
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: auto;
-    margin-left: -45.2%;
-    -webkit-transform: translate(-50%);
-            transform: translate(-50%);
-    top: -43%;
+    top: 0%;
+    left: 0;
+    padding-top: 665px;
     z-index: -1;
   }
 }
@@ -186,6 +177,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 64em) {
+  .hero__text {
+    width: 752px;
+    margin: 0 auto;
+  }
 }
 
 .hero__text .hero__h1 {
@@ -428,6 +426,8 @@ body {
   padding-bottom: 22px;
   margin-bottom: 23px;
   border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.9);
 }
 
 @media (min-width: 64em) {
@@ -507,6 +507,8 @@ body {
   padding-bottom: 36px;
   border-radius: 10px;
   text-align: center;
+  -webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.9);
+          box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.9);
 }
 
 @media (min-width: 64em) {
@@ -551,8 +553,8 @@ body {
   border-radius: 26px;
   border: none;
   margin-bottom: 23px;
-  -webkit-box-shadow: inset 2px 2px 2px #eee;
-          box-shadow: inset 2px 2px 2px #eee;
+  -webkit-box-shadow: inset 2px 2px 2px #b3b0b0;
+          box-shadow: inset 2px 2px 2px #b3b0b0;
 }
 
 @media (min-width: 64em) {

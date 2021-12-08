@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb3421f6.chunk.css",
+    "main.js": "/static/js/main.a6684e78.chunk.js",
+    "main.js.map": "/static/js/main.a6684e78.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c708c58d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c708c58d.js.map",
+    "static/js/2.4fe4f040.chunk.js": "/static/js/2.4fe4f040.chunk.js",
+    "static/js/2.4fe4f040.chunk.js.map": "/static/js/2.4fe4f040.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fb3421f6.chunk.css.map": "/static/css/main.fb3421f6.chunk.css.map",
+    "static/js/2.4fe4f040.chunk.js.LICENSE.txt": "/static/js/2.4fe4f040.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash-scaled.c61460f4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c708c58d.js",
+    "static/js/2.4fe4f040.chunk.js",
+    "static/css/main.fb3421f6.chunk.css",
+    "static/js/main.a6684e78.chunk.js"
+  ]
+}
